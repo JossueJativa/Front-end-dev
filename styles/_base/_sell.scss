@@ -1,0 +1,42 @@
+.sell-nft {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: 20px;
+
+    .center-text {
+        width: 100%;
+        text-align: center;
+
+        .grid-3-items {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+
+            .items {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                color: white;
+
+                .transparent-container {
+                    width: 100%;
+                    height: auto;
+                    background-color: transparent;
+                    backdrop-filter: blur(10px);
+                    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

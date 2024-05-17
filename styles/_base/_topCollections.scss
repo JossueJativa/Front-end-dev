@@ -1,0 +1,74 @@
+.top-colection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .center-text {
+        width: 100%;
+        text-align: center;
+
+        .grid-6-items {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+        }
+
+        .grid-4-items {
+            margin-top: 3%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+
+            .items {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                border-radius: 5px;
+                color: white;
+                padding: 10px;
+
+                .transparent-container {
+                    width: 100%;
+                    height: auto;
+                    background-color: transparent;
+                    backdrop-filter: blur(10px);
+                    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+                    border-radius: 10px;
+                    padding: 20px 0px;
+
+                    .just-content {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-items: flex-start;
+                        gap: 10px;
+                        padding: 0px 20px;
+
+                        .grid-2-items {
+                            width: 100%;
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            gap: 0px;
+                            padding: 10px;
+
+                            .item {
+                                color: white;
+
+                                p {
+                                    font-size: 1.3rem;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

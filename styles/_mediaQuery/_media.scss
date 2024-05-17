@@ -1,0 +1,401 @@
+
+@media (min-width: 1301px) and (max-width: 1400px) {
+    .articles {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .carrousel-content {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .info-photo {
+        .container-left {
+            width: 100%;
+
+            .text-title {
+                font-size: 3rem;
+            }
+
+            .information {
+                font-size: 1.2rem;
+            }
+
+            .grid-3-items {
+                .items {
+                    .numbers {
+                        font-size: 2rem;
+
+                        .center-text {
+                            .information {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .container-right {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .float-text-box {
+        .cl-white {
+            .grid-2-items {
+                .verify {
+                    left: 13%;
+                    width: 10%;
+                }
+            }
+        }
+    }
+
+    .cont-wallets {
+        padding-top: 20%;
+    }
+
+    .top-colection {
+        .center-text {
+            .grid-6-items {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+
+                .items {
+                    margin-bottom: 10%;
+                }
+            }
+
+            .grid-4-items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .articles {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .carrousel-content {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .footer {
+        .intup-inner-btn {
+            input {
+                width: 90%;
+            }
+
+            button {
+                position: absolute;
+                left: 90%;
+                margin-top: 0.5%;
+                transform: translate(-50% -50%);
+            }
+        }
+    }
+}
+
+@media (min-width: 770px) and (max-width: 927px) {
+    .cont-wallets {
+        padding-top: 25%;
+
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .grid-2-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .top-colection {
+        .center-text {
+            .grid-6-items {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+
+                .items {
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+
+    .sell-nft {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .articles {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .carrousel-content {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
+
+// Responsive
+@media screen and (max-width: 768px) {
+    .pd-body {
+        padding: 0%;
+    }
+
+    .nav {
+        padding: 10px 0px;
+
+        .grid-2-sec {
+            .grid-item {
+                .items-end {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .info-photo {
+        padding-left: 5%;
+        width: 92%;
+
+        .container-left {
+            width: 100%;
+
+            .text-title {
+                font-size: 3rem;
+            }
+
+            .information {
+                font-size: 1.2rem;
+            }
+
+            .grid-3-items {
+                .items {
+                    .numbers {
+                        font-size: 2rem;
+
+                        .center-text {
+                            .information {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .container-right {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+
+            .container-around-img {
+
+                .wt-170 {
+                    width: 100px;
+                }
+
+                .wt-150 {
+                    width: 100px;
+                }
+
+                .wt-300 {
+                    width: 200px;
+                }
+
+                .grid-3-col {
+                    grid-template-columns: repeat(5, 1fr);
+                }
+
+                .top-float {
+                    left: 60%;
+                }
+
+                .mid-float {
+                    left: 35%;
+                }
+
+                .button-float {
+                    left: 0%;
+                }
+
+                .button-float-2 {
+                    left: 0%;
+                }
+
+                .button-float-3 {
+                    left: 35%;
+                }
+            }
+        }
+    }
+
+    .float-text-box {
+        .cl-white {
+            font-size: 0.8rem;
+
+            .grid-2-items {
+                .verify {
+                    left: 13%;
+                    width: 10%;
+                }
+            }
+        }
+
+        .info-text {
+            font-size: 0.5em;
+        }
+    }
+
+    .cont-wallets {
+        padding-top: 25%;
+
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .grid-2-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .top-colection {
+        .center-text {
+            .grid-6-items {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+
+                .items {
+                    margin-bottom: 10%;
+                }
+            }
+
+            .grid-4-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .sell-nft {
+        padding: 3px;
+
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+
+                .items {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .articles {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .carrousel-content {
+        .center-text {
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+
+                .items {
+                    padding: 0%;
+
+                    .transparent-container {
+                        padding: 10px;
+                        width: 90%;
+
+                        .flex-3-col {
+                            .img-photo {
+                                width: 90%;
+                            }
+                        }   
+
+                        .grid-2-items {
+                            padding: 0px;
+                            grid-template-columns: repeat(1, 1fr);
+
+                            .flex-2-img {
+                                flex-direction: row;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .intup-inner-btn {
+            input {
+                width: 90%;
+            }
+
+            button {
+                position: absolute;
+                left: 80%;
+                margin-top: -8.7%;
+                transform: translate(-50% -50%);
+            }
+        }
+
+        .end-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .grid-3-items {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
